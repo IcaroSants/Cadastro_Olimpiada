@@ -1,0 +1,145 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+body{
+    background-color: lightgray;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+header{
+    background-color: #333;
+    height: 10%;
+    border-bottom:solid 5px #4faddb ;
+    font-size: 30px;
+    font:bold    
+}
+ul, li{
+    display: inline-block;
+    color: white;
+    margin-right: 30px;
+}
+
+
+
+div {
+    display: inline-block;
+    border: solid black;
+    width: 100%;
+
+    
+}
+
+.centralizar {
+   margin-top: 5%;
+   border: none;
+}
+
+#div_java{
+    margin-left: 20%;
+    background-color: whitesmoke;
+    font-size: 21;
+    margin-right: 10%;
+    width: 20%;
+
+}
+
+#div_c{
+    
+    background-color: lightskyblue;
+    font-size: 21;
+    margin-right: 10%;
+    width: 20%
+}
+
+#div_python {
+    margin-left: 20%;
+    background-color: rgb(223, 223, 43);
+    font-size: 21;
+    margin-right: 10%;
+    width: 20%;
+
+}
+
+#div_js{
+    background-color: lightyellow;
+    font-size: 21;
+    margin-right: 10%;
+    width: 20%
+}
+img{
+    margin-right: 40%;
+    margin-left: 20%;
+    display: block;
+}
+
+.cor_Texto{
+    color: black;
+    display: block;
+
+}
+
+.detalhes{
+    margin-left: 12%;
+    
+}
+.detalhes:hover{
+    background-color: aqua;   
+    color: black;
+}
+
+.cor{
+    color: white;
+}
+
+.cor_login{
+    color: white;
+}
+.cor:hover{
+    color: black;
+}
+
+.alinhamento{
+    float: right;
+}
+
+#colorido{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+form{
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 16px;
+    font: bolder;
+    
+}
+
+input[type = text],textarea, #check, #password {
+    padding: 12px 20px;
+    border: 1px solid #4faddb ;
+    border-radius: 4px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.registro{
+    text-decoration: none;
+    color:white;
+}
+
+.obrigado{
+    
+        text-align: center;
+        font-size: 20px;
+        font: bold;
+}

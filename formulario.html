@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+       
+        <header>
+            <nav>
+                 <ul>
+                     <li class="detalhes"><a class="cor" href="index.html">Inicio</a> </li>
+                 </ul>
+                 <ul class="alinhamento">
+                     <li> <a class="cor_login" href="login.html">Login</a></li>
+                     <li id="colorido"> <a class="registro" href="formulario.html">Registro</a></li>
+                 </ul>
+             </nav>
+         </header>
+       
+       <main>
+            <form action="resultado.html" method="POST">
+                    <p>Nome:</p> 
+                    <input type="text" name="nome">
+                    <br>
+                    <p>E-mail</p>
+                    <input type="text" name="email">
+                    <br>
+                    <p>Senha</p> 
+                    <input type="password" name="senha">
+                    <br>
+                    <p>Modalidade</p>
+                    <input list="options">
+
+                    <datalist id="options">
+                        <option value="x1"></option>
+                        <option value="maratona"></option>
+                        <option value="tempo"></option>
+                    </datalist>
+
+                    <p>Linguagens</p>
+                    <input type="checkbox" name="ling1">
+                    <label for="ling1">Python</label><br>
+
+                    <input type="checkbox" name="ling2">
+                    <label for="ling2">C++</label><br>
+
+                    <input type="checkbox" name="ling3">
+                    <label for="ling3">C</label><br>
+
+                    <input type="checkbox" name="ling4">
+                    <label for="ling4">Java</label>
+
+                    <p>Escololha o periodo</p>
+                    <input type="checkbox" name="pe1">
+                    <label for="pe1">Manhã</label><br>
+
+                    <input type="checkbox" name="pe2">
+                    <label for="pe2">Tarde</label><br>
+
+                    <input type="checkbox" name="pe3">
+                    <label for="pe3">Noite</label><br>
+                    <br>
+                    <label for="apresentaçao">Apresentação</label><br>
+                    <textarea name="apresentaçao" id="" cols="30" rows="10"></textarea>
+                    <br>
+
+                    <button type="button"><a href="resultado.html">Enviar</a></button>
+            </form>
+        </main>
+    </body>
+</html>
